@@ -11,11 +11,11 @@ class Loader:
 
 		self.rute = rute
 
-		self.excanges = []
+		self.exchanges = []
 		self.distances = []
 
 
-	#Loading the data
+	#Lectura de datos
 	def load( self ):
 
 
