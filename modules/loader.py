@@ -41,7 +41,6 @@ class Loader:
 
 				for itm in data:
 
-
 					matrix[row_pos][col_pos] = int(itm)
 					col_pos += 1
 
@@ -56,10 +55,12 @@ class Loader:
 								
 								self.exchanges.append( matrix )
 								matrix = numpy.empty( (self.size, self.size), int )
-								change_mtx_type == True
+								row_pos = 0
+								change_mtx_type = True
+								
 
 							else:
-
+					
 								self.distances.append( matrix )
 
 								
